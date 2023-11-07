@@ -1,7 +1,7 @@
-# Password_Generator_Extension
+# Password_Generator
 
 <h3>About the Project</h3>
-<p>Chrome extension for a password generator.</p>
+<p>This is a website that generates random passwords based on user inputs.</p>
 
 <h3>Built Using</h3>
 <ol>
@@ -10,7 +10,7 @@
   <li>Javascript</li>
 </ol>
 <h3>Steps to generate a password</h3>
-<ol type="number">
+<ol>
 <li>Slide the slider to the required number of characters you want your password to be.Minimum length is <b>5</b> characters and maximum length is <b>30</b> characters</li>
 <li>Check the checkbox whose characters(letters,symbols,numbers) you want to be a part of your password.You have to <b>select minimum one checkbox</b></li>
 <li>Click on the Generate button and password will be generated.</li>
