@@ -1,0 +1,245 @@
+:root{
+    font-size: 62.5%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+    background-color: black;
+}
+
+p{
+    margin: 0;
+}
+
+.main_content{
+    height:47rem;
+    width:34rem;
+    border:1px solid #2e2e2f;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_card{
+    color:#4f5254;
+    font-size:1.8rem;
+    height:4rem;
+    width:30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password_copy{
+    color:white;
+    height:6rem;
+    width:30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+.display_card{
+    height:6rem;
+    width:30rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password_display{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_alert{
+    height:2rem;
+    width:24rem;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    color:rgb(0, 136, 0);
+    display: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.password_spec{
+    letter-spacing: 0.03rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:30rem;
+    width:30rem;
+    background-color: #333333;
+    margin-top: 1rem;
+    color:white;
+}
+
+.char_length{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    height:5rem;
+    width:100%;
+}
+
+.char_length>p{
+    display: flex;
+    justify-content: space-around;
+    height:100%;
+    width:23rem;
+}
+
+.char_length_val{
+    height:100%;
+    width:5rem;
+    text-align: center;
+    color:#295943;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+input[type="range"]{
+    accent-color:#40916c;
+    width: 23rem;
+}
+
+.fa-copy:hover{
+   color:#40916c;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    border:0.04rem solid white;
+    height:1.3rem;
+    width: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #40916c;
+    border:none;
+}
+
+.char_spec{
+    margin-top: 1rem;
+}
+
+.checkbox_holder{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.strength_card{
+    height:4rem;
+    width:80%;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform:uppercase;
+    margin-top: 0.8rem;
+}
+
+.generate_btn{
+    background-color: #40916c;
+    color:black;
+    height:4rem;
+    width:80%;
+    border:none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+input[type="checkbox"]:hover{
+    border:0.04rem solid #40916c;
+}
+
+input[type="checkbox"]:hover+label{
+    color:#40916c;
+}
+
+
+.generate_btn:hover{
+    background-color: #295943;
+}
+
+.strength{
+    height: 3rem;
+    width:6rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.strength_bar{
+    border:0.2rem solid white;
+    height:60%;
+    width:0.8rem;
+}
+
+.fa-arrow-right{
+    --fa-display:none;
+}
+
+
+.label_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_card{
+    text-transform: uppercase;
+    color: #295943;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.display{
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+    font-weight: bolder;
+    height:3rem;
+    width:24rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.display::-webkit-scrollbar{
+    display: none;
+}
+
+.display::-moz-scrollbar{
+    display: none;
+}
+
+.display:focus{
+    outline:none;
+}
+
+.model-content{
+    height: 15rem;
+    width:60rem;
+    border:0.1rem solid white;
+}
+
+
