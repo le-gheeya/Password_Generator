@@ -22,6 +22,6 @@
 
 <h3>Contact</h3>
 <ol>
-  <li><a href="legheeya@gmail.com">Email ID</a></li>
+  <li><a href="mailto:legheeya@gmail.com">Email ID</a></li>
   <li><a href="https://github.com/le-gheeya/Password_Generator_Extension">Github Repo</a></li>
 </ol>
