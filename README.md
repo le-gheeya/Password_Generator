@@ -1,7 +1,7 @@
 # Password_Generator
 
 <h3>About the Project</h3>
-<p>This is a website that generates random passwords based on user inputs.</p>
+<p>This is a website(desktop only) that generates random passwords based on user inputs.</p>
 
 <h3>Built Using</h3>
 <ol>
